@@ -3,8 +3,8 @@ const form = document.querySelector("form")
 form.addEventListener("submit", function(e) {
     e.preventDefault();
 
-    const height = document.querySelector("#height").value
-    const weight = document.querySelector("#weight").value
+    const height = parseInt(document.querySelector("#height").value)
+    const weight = parseInt(document.querySelector("#weight").value)
     const results = document.querySelector("#results")
     const result_text = document.querySelector("#result-text")
 
