@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Freelancer Platform</title>
+  <link rel="stylesheet" href="styles\styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Freelancer Platform</h1>
+  <div>
+    <a href="#login">Login</a>
+    <a href="#signup">Sign Up</a>
+    <a href="#search">Search Freelancers</a>
+  </div>
+</header>
+
+<!-- Login Section -->
+<section id="login" class="container fadeIn">
+  <h2>Login</h2>
+  <div class="form-container">
+    <input type="email" id="login-email" placeholder="Email" required>
+    <input type="password" id="login-password" placeholder="Password" required>
+    <button id="login-btn">Login</button>
+  </div>
+</section>
+
+<!-- Signup Section -->
+<section id="signup" class="container fadeIn">
+  <h2>Sign Up</h2>
+  <div class="form-container">
+    <input type="text" id="signup-name" placeholder="Name" required>
+    <input type="email" id="signup-email" placeholder="Email" required>
+    <input type="password" id="signup-password" placeholder="Password" required>
+    <button id="signup-btn">Sign Up</button>
+  </div>
+</section>
+
+<!-- Freelancer Search Section -->
+<section id="search" class="container fadeIn">
+  <h2>Search Freelancers</h2>
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Enter required skills" onkeyup="searchFreelancers()">
+  </div>
+
+  <div class="freelancer-list" id="freelancer-list">
+    <!-- Freelancer Cards will be shown here -->
+  </div>
+</section>
+
+<script src="script\script.js"></script>
+
+</body>
+</html>
