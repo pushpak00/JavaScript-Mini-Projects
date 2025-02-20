@@ -1,0 +1,138 @@
+
+/* Global Styles */
+body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     background-color: #1f1f1f;
+     color: white;
+   }
+
+.container {
+     width: 80%;
+     margin: 0 auto;
+   }
+
+h1, h2 {
+     text-align: center;
+     color: #ff7f32;
+     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+   }
+
+/* Animations */
+@keyframes fadeIn {
+     from { opacity: 0; }
+     to { opacity: 1; }
+   }
+
+.fadeIn {
+     animation: fadeIn 1.5s ease-in-out;
+   }
+
+/* Forms and Input Fields */
+input, select, button {
+     padding: 12px;
+     border-radius: 5px;
+     border: none;
+     margin: 10px 0;
+     width: 100%;
+   }
+
+input[type="text"], input[type="email"], input[type="password"], select {
+     background-color: #2a2a2a;
+     color: white;
+   }
+
+button {
+     background-color: #ff7f32;
+     color: white;
+     cursor: pointer;
+     transition: 0.3s;
+   }
+
+button:hover {
+     background-color: #e36b00;
+   }
+
+/* Header */
+header {
+     background-color: #1b1b1b;
+     padding: 20px 0;
+     text-align: center;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+   }
+
+header a {
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     margin: 0 15px;
+     transition: 0.3s;
+   }
+
+header a:hover {
+     color: #ff7f32;
+   }
+
+/* Search Section */
+.search-container {
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+   }
+
+.search-container input {
+     width: 60%;
+   }
+
+.freelancer-list {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin-top: 30px;
+   }
+
+.freelancer-card {
+     background-color: #333;
+     width: 22%;
+     padding: 15px;
+     margin-bottom: 20px;
+     text-align: center;
+     border-radius: 8px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+     transition: transform 0.3s;
+   }
+
+.freelancer-card:hover {
+     transform: scale(1.05);
+   }
+
+.freelancer-card h3 {
+     color: #ff7f32;
+   }
+
+.freelancer-card p {
+     color: white;
+   }
+
+.freelancer-card button {
+     background-color: #ff7f32;
+     color: white;
+     margin-top: 10px;
+   }
+
+.freelancer-card button:hover {
+     background-color: #e36b00;
+   }
+
+/* Form Section */
+.form-container {
+     width: 300px;
+     margin: 50px auto;
+     background-color: #2a2a2a;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+   }
+    
+  
